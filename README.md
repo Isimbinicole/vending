@@ -1,14 +1,60 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Introduction 
 
-Try running some of the following tasks:
+A decentralized vending machine application built on Ethereum. This DApp allows sellers to manage product inventory and buyers to purchase items directly using Ether (ETH) by using MetaMask.
 
-```shell
-npx hardhat help
+User of the system and there role 
+
+1.Seller 
+Connect wallet using MetaMask.
+Add new products (name, price, quantity).
+view all available products.
+restock existing products.
+Withdraw earnings collected from buyers
+
+2.Buyer
+Connect wallet using MetaMask
+Purchase products using ETH
+Browse available products
+
+Technology used
+
+Solidity – Smart contract development
+Hardhat – Ethereum development environment
+React.js – Frontend interface
+Ethers.js – Ethereum interaction
+Bootstrap – Responsive UI styling
+MetaMask – Wallet connection
+ 
+Basics
+Node.js & npm
+MetaMask extension installed
+Hardhat installed globally:npm install --save-dev hardhat
+
+Support
+clone repository
+git clone https://github.com/Isimbinicole/vending.git
+
+run the following task after cloning 
+
+cd vending
+1.Compile & Deploy Smart Contract
+cd ..
+npx hardhat compile
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
-# vending
+npx hardhat node 
+
+
+2.open new terminal
+npx hardhat run scripts/deploy.js --network localhost
+
+
+3.Start frontend in new terminal
+cd frontend
+npm start
+
+
+
+
+
