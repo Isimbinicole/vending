@@ -8,10 +8,12 @@ body {
 }
 
 .App {
-  max-width: 800px;
+  max-width: 1800px;
   margin: auto;
   padding: 20px;
   text-align: center;
+  background-color: #f5f7fa;
+
 }
 
 h2 {
