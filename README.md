@@ -56,7 +56,7 @@ npm start
 
  veiw my application on 
 git hub through "https://github.com/Isimbinicole/vending"
-you tube through"https://www.youtube.com/watch?v=j03Bppc8YA0"
+you tube through"https://youtu.be/9Mo01UKExbM"
 
 
 
